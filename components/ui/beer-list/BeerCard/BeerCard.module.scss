@@ -1,0 +1,12 @@
+.card {
+  @apply max-w-xs w-full border border-gray-300 rounded-xl p-4 cursor-pointer hover:shadow-2xl transition-shadow;
+
+  .title {
+    @apply font-semibold text-xl mt-7 mb-3;
+  }
+
+  .description {
+    @apply text-sm;
+    color: #908f95;
+  }
+}

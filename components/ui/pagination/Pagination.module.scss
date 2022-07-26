@@ -1,0 +1,11 @@
+.arrowBtn {
+  @apply border border-zinc-300 rounded p-2 text-zinc-300 text-lg hover:bg-zinc-900 w-12 transition-colors disabled:bg-white disabled:hover:bg-none;
+}
+
+.container {
+  @apply flex justify-center items-center mt-10;
+
+  span {
+    @apply px-5 text-lg font-bold text-zinc-600;
+  }
+}

@@ -1,0 +1,12 @@
+.beer {
+  @apply container mx-auto mt-7 relative;
+
+  .tagline {
+    @apply block mb-5;
+    color: #908f95;
+  }
+
+  .description {
+    @apply text-lg mt-16 border-t border-b border-gray-300 py-5;
+  }
+}
